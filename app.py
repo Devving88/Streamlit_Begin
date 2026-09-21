@@ -11,5 +11,5 @@ breeds_object_detection = st.Page("pages/object_detection_app.py", title="Detect
 # Set up navigation
 pg = st.navigation([main_page, sale_predict, cat_dog_classify,breeds_object_detection])
 
-# Run the selected page
+# Run the selected page 
 pg.run()
